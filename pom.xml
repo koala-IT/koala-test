@@ -330,7 +330,7 @@
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
-      <version>1.2.6</version>
+      <version>1.2.25.sec10</version>
     </dependency>
 
     <!-- springMVC参数校验 -->
