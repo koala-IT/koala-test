@@ -1,0 +1,69 @@
+.tablebox {
+    height:300px;
+    overflow: hidden;
+    position: relative;
+    -ms-overflow-style: none;
+    align:left;
+    background-color: #707070;
+
+}
+.tbl-body::-webkit-scrollbar
+{
+    width: 16px;
+    height: 16px;
+    display: none;
+}
+
+.tbl-header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: 10;
+
+
+}
+
+.tbl-body {
+    overflow-y: scroll;
+    width: 100%;
+    height: 400%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+
+}
+.tablebox table {
+    width: 100%;
+    height: 100%;
+}
+
+.tablebox table th,
+.tablebox table td {
+    font-size: 14px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+
+
+}
+
+
+.tablebox table tr th {
+
+    cursor: pointer;
+}
+
+.tablebox table tr td {
+    background-color: transparent;
+}
+
+.tbl-body tr:nth-child(even) td,.tbl-body1 tr:nth-child(even) td {
+    background-color: #6DC59F;
+}
+
+.tablebox table tr td span,
+.tablebox table tr td span {
+    font-size: 14px;
+}

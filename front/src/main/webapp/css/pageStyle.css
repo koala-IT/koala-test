@@ -1,0 +1,212 @@
+/*升序降序按钮颜色*/
+.layui-table-sort-asc {
+    border-bottom-color: white !important;
+}
+.layui-table-sort-desc {
+    border-top-color: white !important;
+}
+.text{
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+
+}
+
+.INPUT{
+    margin-left: 5%;
+    margin-right: 5%;
+    border: none;
+
+}
+/*滚动条滑块*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #726E6F;
+}
+
+/*滚动条轨道*/
+table ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    background: #232532;
+}
+/*输入框颜色自定义灰*/
+input{
+    background-color:#726E6F!important;
+    color: white;
+    border: none!important;
+}
+input::-webkit-input-placeholder{
+    color: lightgray;
+}
+xm-select > .xm-tips{
+    color: lightgray;
+}
+
+/*复选框自定义样式*/
+.regular-checkbox{
+    display: none !important;
+}
+.label-box {
+    color: white;
+    background-color: #726E6F;
+    margin-left: 1%;
+
+    padding: 9px;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.regular-checkbox+.label-box:active,
+.regular-checkbox:checked+.label-box {
+    /* background-color: #003399; */
+    border: 1px solid white;
+
+}
+.colorStyle1{
+    background: linear-gradient(to right, #07B1E5, #26F09E);
+    color: black;
+}
+.colorStyle2{
+    background: linear-gradient(to right, #618DFE, #2CC5FB);
+    color: black;
+}
+.colorStyle3{
+    background: linear-gradient(to right, #B8E08A, #F0DF92);
+    color: black;
+}
+.colorStyle4{
+    background: linear-gradient(to right,#FD718D,#FC9A91);
+    color: black;
+}
+/*车牌css*/
+
+.blueLisencePlate{
+    float: left;
+    width:auto;
+    border: 1px solid white;
+    height:28px;
+    background-color:#0F136C;
+    border-radius: 5px;
+    color:white;
+    font-size: 18px;
+    text-align:center;
+    padding:0px 4px 2px 4px;
+
+
+}
+.yellowLisencePlate{
+    float: left;
+    width:auto;
+    border: 2px solid black;
+    height:28px;
+    background-color:#BBB350;
+    border-radius: 5px;
+    color:black;
+    font-size: 18px;
+    text-align:center;
+    padding:0px 4px 2px 4px;
+}
+.blackLisencePlate{
+    float: left;
+    width:auto;
+    border: 1px solid white;
+    height:28px;
+    background-color:#424041;
+    border-radius: 5px;
+    color:white;
+    font-size: 18px;
+    text-align:center;
+    padding:0px 4px 2px 4px;
+    margin: auto;
+}
+.whiteLisencePlate{
+    float: left;
+    width:auto;
+    border: 2px solid black;
+    height:28px;
+    background-color:#C1BBBB;
+    border-radius: 5px;
+    color:black;
+    font-size: 18px;
+    text-align:center;
+    padding:0px 4px 2px 4px;
+}
+.greenLisencePlate{
+    float: left;
+    width:auto;
+    border: 2px solid black;
+    height:28px;
+    background-color:#66B05B;
+    border-radius: 5px;
+    color:black;
+    font-size: 18px;
+    text-align:center;
+    padding:0px 4px 2px 4px;
+}
+.LisencePlate{
+    float: left;
+    border: 1px solid white;
+    height:25px;
+    background-color:#0F136C;
+    border-radius: 5px;
+    color:white;
+    font-size: 18px;
+    text-align:center
+}
+/*修改原生layui表格样式*/
+
+.layui-table-view{
+    border: none !important;
+    width: 100%;
+}
+.layui-table thead  th{
+    color: white;
+    background-color: #726E6F;
+    border-color: #232532;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 2px solid #232532;
+    text-align: center;
+    background-clip: padding-box;
+
+}
+
+.layui-table {
+    background-color: #232532;
+    color: white;
+    width: 100%;
+}
+.layui-table-header {
+    border-color:#232532 ;
+
+}
+.layui-table td{
+    border: none;
+    text-align: center;
+}
+
+.layui-table-patch .layui-table-cell{
+    width:0px !important;
+}
+
+.layui-table-page{
+    border: none;
+}
+.layui-table tbody tr:hover, .layui-table thead tr, .layui-table-click, .layui-table-header, .layui-table-hover, .layui-table-mend, .layui-table-patch, .layui-table-tool, .layui-table-total, .layui-table-total tr, .layui-table[lay-even] tr:nth-child(even){
+    background-color: #232532 !important;
+}
+.layui-table tbody tr:hover {
+    background-color:darkgray !important;
+}
+
+
